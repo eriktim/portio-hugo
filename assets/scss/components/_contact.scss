@@ -18,11 +18,20 @@
         left: 0;
         bottom: 0;
         z-index: 1;
+
+        .fa {
+          color: #5d78ff;
+          font-size: $h1-font-size;
+          padding-left: 0.3em;
+        }
       }
     }
     a {
       color: $body-color;
-      text-decoration: underline;
+      
+      &:hover {
+        color: $secondary;
+      }
     }
   }
 }

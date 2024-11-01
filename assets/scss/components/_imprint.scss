@@ -1,0 +1,32 @@
+.imprint {
+  a {
+    color: $primary;
+    
+    &:hover {
+      color: $secondary;
+    }
+  }
+
+  &_company {
+    width: 70%;
+    padding: 60px 50px;
+    background: #1b2031;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-bottom: 80px;
+    position: relative;
+
+    .text-light p:nth-child(1) {
+      font-size: 120%;
+      margin-bottom: 0px;
+    }
+
+    a {
+      color: white;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+}

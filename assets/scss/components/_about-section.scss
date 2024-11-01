@@ -15,7 +15,7 @@
         position: absolute;
         top: -11%;
         left: -17%;
-        z-index: -1;
+        z-index: 1;
         height: 150px;
         animation: move_top 4s infinite;
         @include tablet {
