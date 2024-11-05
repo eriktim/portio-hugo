@@ -1,2 +1,19 @@
 .terms {
+  &_intro {
+    margin-bottom: 2em;
+  }
+
+  h4 {
+    font-size: 1px;
+    margin: 0;
+    visibility: hidden;
+  }
+
+  [id]::before {
+    content: '';
+     display: block;
+    height: 130px;
+    margin-top: -130px;
+    visibility: hidden;
+  }
 }
